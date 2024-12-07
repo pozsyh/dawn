@@ -79,8 +79,8 @@
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
+            "heading": "Védd a környezeted!",
+            "icon": "bottle",
             "content": "",
             "page": ""
           }

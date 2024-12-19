@@ -250,7 +250,7 @@
     "custom_liquid_kgbWdK": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n.trustscore {\n    font-weight: normal;\n}\n\n.highlight {\n    font-weight: bold;\n}\n\n.reviews {\n    font-weight: small;\n    margin-left: 3px;\n}\n</style>\n</head>\n<body>\n<div class=\"trustscore-container\">\n    <div class=\"stars\">\n        <!-- Embedding the PNG image from Imgur -->\n        <img src=\"https://i.imgur.com/EHjNmTM.png\" alt=\"4.5 stars\">\n    </div>\n    <div class=\"trustscore\">\n        Trustscore <span class=\"highlight\">4.4| 150+</span> reviews\n    </div>\n</div>\n</body>\n</html>",
+        "custom_liquid": "<style>\n.trustscore-container {\n    display: flex;\n    align-items: center;\n    font-family: Arial, sans-serif;\n    font-size: 14px;\n    color: #333;\n}\n\n.stars {\n    display: flex;\n    align-items: center;\n    margin-right: 10px;\n}\n\n.stars img {\n    max-width: 100px;\n    width: 100px;\n    height: auto;\n}\n</style>\n\n<style>\n.trustscore {\n    font-weight: normal;\n}\n\n.highlight {\n    font-weight: bold;\n}\n\n.reviews {\n    font-weight: small;\n    margin-left: 3px;\n}\n</style>\n</head>\n<body>\n<div class=\"trustscore-container\">\n    <div class=\"stars\">\n        <!-- Embedding the PNG image from Imgur -->\n        <img src=\"https://i.imgur.com/EHjNmTM.png\" alt=\"4.5 stars\">\n    </div>\n    <div class=\"trustscore\">\n        Trustscore <span class=\"highlight\">4.4| 150+</span> reviews\n    </div>\n</div>\n</body>\n</html>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 16

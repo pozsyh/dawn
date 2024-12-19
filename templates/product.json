@@ -12,6 +12,10 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "description_UcQENH": {
+          "type": "description",
+          "settings": {}
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -21,10 +25,6 @@
         },
         "title": {
           "type": "title",
-          "settings": {}
-        },
-        "description": {
-          "type": "description",
           "settings": {}
         },
         "price": {
@@ -49,62 +49,25 @@
             "show_gift_card_recipient": true
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Anyaghasználat",
-            "icon": "leather",
-            "content": "",
-            "page": ""
-          }
-        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Szállítás és visszatérítés",
             "icon": "truck",
-            "content": "",
+            "content": "<p><strong>Szállítás és Visszatérítés</strong></p><p><br/></p><p>Webshopunkban a rendelések szállítási ideje <strong>8-11 munkanap</strong>, amely során igyekszünk, hogy a csomagod minél gyorsabban és biztonságosan megérkezzen hozzád.</p><p><br/></p><p>Amennyiben a termék hibásan érkezik, <strong>visszatérítési garanciát</strong> vállalunk. Ebben az esetben az árát <strong>1-2 napon belül visszatérítjük</strong>, miután a hibás terméket visszaküldted a megadott címre.</p><p><br/></p><p>Célunk, hogy elégedett legyél a vásárlásoddal, ezért kérünk, hogy bármilyen probléma esetén vedd fel velünk a kapcsolatot, hogy mielőbb megoldást találhassunk!</p>",
             "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Garancia",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Védd a környezeted!",
-            "icon": "paw_print",
-            "content": "",
-            "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Megosztás"
           }
         }
       },
       "block_order": [
+        "description_UcQENH",
         "vendor",
         "title",
-        "description",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2",
-        "collapsible-row-3",
-        "share"
+        "collapsible-row-1"
       ],
       "settings": {
         "enable_sticky_info": true,

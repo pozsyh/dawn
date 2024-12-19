@@ -12,10 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "description_UcQENH": {
-          "type": "description",
-          "settings": {}
-        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -60,7 +56,6 @@
         }
       },
       "block_order": [
-        "description_UcQENH",
         "vendor",
         "title",
         "price",
@@ -91,7 +86,7 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "title": "Hassle-Free Exchanges",
+            "title": "",
             "text": "<p><strong>Tartsd Készülékeidet Feltöltve a Nagy Kapacitású Power Bankkal</strong></p><p>Soha ne fogyj ki az energiából 20000mAh kapacitású power bankunkkal! Ez a hosszú üzemidőre tervezett eszköz gondoskodik róla, hogy fűthető mellényed, sálad, zoknid és kesztyűid mindig működőképesek maradjanak, melegen tartva és kapcsolatban tartva téged, bárhol is jársz.</p><p><br/></p><p><strong>Éld Át a Sokoldalú Töltés Élményét Power Bankunkkal</strong></p><p>Élvezd a Type-C bemenettel és USB kimenettel rendelkező power bank kényelmét! Az 5V 2A teljesítményű kimenet számos eszköz töltésére alkalmas, így bármilyen helyzetben biztosítja az energiaellátást.</p><p><br/></p><p><strong>Megbízható Energia Útközben Li-Polimer Akkumulátorral</strong></p><p>Bízz a Li-polimer akkumulátor megbízhatóságában! A 20000mAh kapacitás és a kompakt kialakítás tökéletes társává teszi fűthető ruháidhoz, hosszú üzemidőt biztosítva.</p><p><br/></p><p><strong>Maradj Meleg és Kapcsolatban Kompatibilis Power Bankunkkal</strong></p><p>Gondoskodj róla, hogy fűthető mellényed, sálad, zoknid és kesztyűid mindig használatra készek legyenek power bankunkkal! A stílusos fekete és fehér színekben elérhető eszköz egyesíti a praktikumot és az esztétikumot, így biztosítva számodra a meleget és az energiaellátást, bármerre is jársz.</p>",
             "link_label": "",
             "link": ""

@@ -160,6 +160,24 @@
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
+        "column_n4eXx7": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3L6EKT": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column1": {
           "type": "column",
           "disabled": true,
@@ -190,6 +208,8 @@
         }
       },
       "block_order": [
+        "column_n4eXx7",
+        "column_3L6EKT",
         "column1",
         "column2",
         "column3"
@@ -226,6 +246,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_liquid_kgbWdK": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n.trustscore {\n    font-weight: normal;\n}\n\n.highlight {\n    font-weight: bold;\n}\n\n.reviews {\n    font-weight: small;\n    margin-left: 3px;\n}\n</style>\n</head>\n<body>\n<div class=\"trustscore-container\">\n    <div class=\"stars\">\n        <!-- Embedding the PNG image from Imgur -->\n        <img src=\"https://i.imgur.com/EHjNmTM.png\" alt=\"4.5 stars\">\n    </div>\n    <div class=\"trustscore\">\n        Trustscore <span class=\"highlight\">4.4| 150+</span> reviews\n    </div>\n</div>\n</body>\n</html>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
     }
   },
   "order": [
@@ -234,6 +263,7 @@
     "featured_collection",
     "collage",
     "multicolumn",
-    "video_p6yzfM"
+    "video_p6yzfM",
+    "custom_liquid_kgbWdK"
   ]
 }

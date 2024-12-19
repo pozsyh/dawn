@@ -85,67 +85,20 @@
         "padding_bottom": 12
       }
     },
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "image-with-text-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "image-with-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "image-with-text-0",
-        "image-with-text-1"
-      ],
-      "settings": {
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "scheme-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
-        "column-0": {
-          "type": "column",
-          "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column-1": {
           "type": "column",
           "settings": {
             "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p><strong>Tartsd Készülékeidet Feltöltve a Nagy Kapacitású Power Bankkal</strong></p><p>Soha ne fogyj ki az energiából 20000mAh kapacitású power bankunkkal! Ez a hosszú üzemidőre tervezett eszköz gondoskodik róla, hogy fűthető mellényed, sálad, zoknid és kesztyűid mindig működőképesek maradjanak, melegen tartva és kapcsolatban tartva téged, bárhol is jársz.</p><p><br/></p><p><strong>Éld Át a Sokoldalú Töltés Élményét Power Bankunkkal</strong></p><p>Élvezd a Type-C bemenettel és USB kimenettel rendelkező power bank kényelmét! Az 5V 2A teljesítményű kimenet számos eszköz töltésére alkalmas, így bármilyen helyzetben biztosítja az energiaellátást.</p><p><br/></p><p><strong>Megbízható Energia Útközben Li-Polimer Akkumulátorral</strong></p><p>Bízz a Li-polimer akkumulátor megbízhatóságában! A 20000mAh kapacitás és a kompakt kialakítás tökéletes társává teszi fűthető ruháidhoz, hosszú üzemidőt biztosítva.</p><p><br/></p><p><strong>Maradj Meleg és Kapcsolatban Kompatibilis Power Bankunkkal</strong></p><p>Gondoskodj róla, hogy fűthető mellényed, sálad, zoknid és kesztyűid mindig használatra készek legyenek power bankunkkal! A stílusos fekete és fehér színekben elérhető eszköz egyesíti a praktikumot és az esztétikumot, így biztosítva számodra a meleget és az energiaellátást, bármerre is jársz.</p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column-0",
         "column-1"
       ],
       "settings": {
@@ -186,7 +139,6 @@
   },
   "order": [
     "main",
-    "image-with-text",
     "multicolumn",
     "related-products"
   ]
